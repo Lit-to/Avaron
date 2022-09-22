@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "ice_attack": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "entity": {
+                    "type": "player"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "avaron:hurted"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "pools": [
+      {
+        "rolls": 9,
+        "entries": [
+          {
+            "type": "loot_table",
+            "weight": 1,
+            "name": "avaron:help"
+          }
+        ]
+      }
+    ]
+  }

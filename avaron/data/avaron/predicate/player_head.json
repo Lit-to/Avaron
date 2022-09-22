@@ -1,0 +1,15 @@
+{
+  "condition": "entity_properties",
+  "entity": "this",
+  "nbt": {
+    "Inventory": {
+      "tag": {
+        "Name": [
+          {
+            "selector": "@s"
+          }
+        ]
+      }
+    }
+  }
+}

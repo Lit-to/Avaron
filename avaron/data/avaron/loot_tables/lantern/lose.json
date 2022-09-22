@@ -1,0 +1,27 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:soul_lantern",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "失敗",
+                                "color": "blue"
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{game:1}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

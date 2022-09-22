@@ -1,0 +1,28 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:red_stained_glass_pane",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "ホットバー(インベントリの一番下)に入れてメンバーに追加"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,32 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:oak_sign",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{BlockEntityTag:{Text2:'{\"text\":\">>役職を確認<<\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function avaron:role/inform\"}}'}}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "参加"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
